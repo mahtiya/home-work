@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+   <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
 
@@ -13,9 +14,10 @@
         </div>
         <div>
             <select class="form_select" name="select_name" >
-                <option value="89.7">USA</option>
-                <option value="95.10">Euro</option>
-                <option value="0.95">Rub</option>
+                <option class="form__option" value="">choose currency</option>
+                <option class="form__option" value="89.7">$(USA)</option>
+                <option class="form__option" value="95.10">€(Euro)</option>
+                <option class="form__option" value="0.95">₽(Rub)</option>
             </select>
             <button type="submit">click</button>
             <span class="form_result"></span>

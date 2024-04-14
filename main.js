@@ -3,7 +3,8 @@
 var elForm = document.querySelector(".form");
 var elFormInput = document.querySelector(".form__input");
 var elFormSelect = document.querySelector(".form_select");
-var result = document.querySelector(".form_result")
+var result = document.querySelector(
+    ".form_result")
 
 elForm.addEventListener("submit", function (evt) {
     evt.preventDefault();
